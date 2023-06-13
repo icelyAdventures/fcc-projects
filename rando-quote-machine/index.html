@@ -1,0 +1,62 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = devic-width, initial-scale=1.0">
+        <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" 
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" 
+        crossorigin="anonymous">
+          <script 
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+          crossorigin="anonymous"></script>
+          <script 
+          src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" 
+          integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" 
+          crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <title>Random Quote Machine!</title>
+        
+        
+    </head>
+    <body> 
+        <wrapper id="quote-box">
+            <div id="quote-text">
+                <i class="fa fa-quote-left" aria-hidden="true"></i><span id="text"></span><i class="fa fa-quote-right" aria-hidden="true"></i>
+                <div id="quote-author"> - <span id="author"></span></div>
+            </div>
+            
+            <div class="buttons">
+                <div>
+                    <a 
+                    href="https://www.twitter.com/intent/tweet" 
+                    target="_blank" 
+                    id="tweet-quote"
+                    class="button"
+                    title="Tweet this quote!"
+                    >
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a 
+                    href="https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" 
+                    target="_blank" 
+                    id="tumblr-quote"
+                    class="button"
+                    title="Post this quote on tumblr!"
+                    >
+                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                    </a>   
+                </div>
+                
+                <button 
+                id="new-quote" 
+                onClick="newQuote()">New Quote!</button>
+            </div>
+        </wrapper>
+        <div class="footer">by <a class="creator" href="https://codepen.io/Kai-Shan-Baik/pen/QWZxKNd" target="_blank">Baik</a></div>
+        <script src="./test.js" rel="stylesheet" ></script>
+    </body>
+
+</html>
